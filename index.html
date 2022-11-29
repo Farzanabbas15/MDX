@@ -51,6 +51,9 @@
                     type="text" placeholder="Search" v-model="search">
 
             </div>
+            
+            <!--Lessonbox -->
+            
             <div class="lesssonbox" v-if="page === 'products'" style="margin-top: -2pc;">
                 <div class="d-flex justify-content-center mt-2" v-if="page === 'products'"
                     v-for="product in filteredProducts">
